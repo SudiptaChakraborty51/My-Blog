@@ -516,16 +516,11 @@ section {
     border: var(--border);
 }
 
-
-
-
-
-
-
-
-
-
-
+.post-image {
+    height: 500px;
+    width: 600px;
+    border-radius: .5rem;
+}
 
 
 /* media queries  */

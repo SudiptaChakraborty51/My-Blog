@@ -5,11 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Details</title>
+
+    <style>
+        .post {
+            margin: 2rem 12rem;
+            text-align: center;
+        }
+
+        .image {
+            width: 500px
+        }
+
+        .links  {
+            font-size: 1.2rem;
+        }
+    </style>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <img src="" alt="" class="post-image">
-    <h1 class="post-title"></h1>
+    <div class="post">
+        <img src="images/banner.png" alt="image not found" class="image">
+        <div class="date">
+          <i class="far fa-clock"><span> May 20, 2020</span></i>
+        </div>
+        <h1 class="title">Blog Title goes here...</h1>
+        <div class="post-tag">
+          <a href="#" class="tag">tree</a>
+          <a href="#" class="tag">nature</a>
+          <a href="#" class="tag">mountain</a>
+        </div>
+        <div class="links">
+          <img src="images/user.jpeg" alt="" class="user-image"/>Sudipta Chakraborty
+          <a href="#" class="icon">
+              <i class="fas fa-thumbs-up"></i>
+              <span>2</span>
+          </a>
+        </div>
+       </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
