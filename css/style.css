@@ -531,6 +531,12 @@ section {
     margin: 0rem 0rem 2rem 7rem;;
     border-radius: .7rem;
     box-shadow: var(--box-shadow);
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+.post-image:hover {
+    transform: scale(1.03);
 }
 
 .post-title {

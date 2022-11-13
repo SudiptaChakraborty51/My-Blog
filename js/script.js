@@ -25,6 +25,9 @@ window.onscroll = () => {
   searchForm.classList.remove('active');
 }
 
+
+
+
 const postDiv = document.querySelector(".post");
 const title = document.querySelector(".title");
 const like = document.querySelector(".fa-thumbs-up");
@@ -96,10 +99,3 @@ fetch("https://dummyapi.io/data/v1/tag/water/post?limit=10", {
     })
   })
   .catch(error => console.log(error));
-
-  title.addEventListener("click", clickHandler());
-
-  function clickHandler(event){
-    var titlePost = event.target.innerText;
-    console.log(titlePost);
-  }
