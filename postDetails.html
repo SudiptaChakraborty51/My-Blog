@@ -1,52 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Details</title>
-
-    <style>
-        .post {
-            margin: 2rem 12rem;
-            text-align: center;
-        }
-
-        .image {
-            width: 500px
-        }
-
-        .links  {
-            font-size: 1.2rem;
-        }
-    </style>
-
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="post">
-        <img src="images/banner.png" alt="image not found" class="image">
-        <div class="date">
-          <i class="far fa-clock"><span> May 20, 2020</span></i>
-        </div>
-        <h1 class="title">Blog Title goes here...</h1>
-        <div class="post-tag">
-          <a href="#" class="tag">tree</a>
-          <a href="#" class="tag">nature</a>
-          <a href="#" class="tag">mountain</a>
-        </div>
-        <div class="links">
-          <img src="images/user.jpeg" alt="" class="user-image"/>Sudipta Chakraborty
-          <a href="#" class="icon">
-              <i class="fas fa-thumbs-up"></i>
-              <span>2</span>
-          </a>
-        </div>
-       </div>
 
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="/index.html" class="logo">My <span>Blog</span></a>
+
+        <nav class="navbar">
+            <a href="/index.html#home">Home</a>
+            <a href="/index.html#posts">Posts</a>
+            <a href="/index.html#contact">Contact me</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+    <div class="post-details">
+        <img src="/images/banner.png" alt="" class="post-image">
+        <h1 class="post-title">Blog Title goes here...</h1>
+        <div class="publish-date">
+            <i class="far fa-clock"><span> Published at - May 3, 2020 at 14:05:52</span></i>
+        </div>
+        <div class="user-details">
+            <img src="images/user.jpeg" alt="" class="user-img" />
+            <span class="user-name">Sudipta Chakraborty</span>
+        </div>
+        <div class="article">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+            <br>
+            <br>
+            At deserunt autem est odio quia aut numquam maiores qui neque rerum quo excepturi sunt ad sapiente dolor! Et
+            totam natus et dolorem sunt qui obcaecati ipsam qui cumque dolorem id ratione rerum aut fuga aspernatur id
+            similique corrupti. Est consectetur aperiam ab expedita quisquam cum culpa officiis qui molestias culpa qui
+            corrupti cumque.
+            <br>
+            <br>
+            Ut quas nihil aut rerum soluta aut facere voluptatem ut earum dolorem qui magnam dolor. In neque recusandae
+            vel quia voluptatem aut ipsam voluptatem ut quas velit cum sint saepe.
+        </div>
+        <div class="post-tags">
+            <a href="#" class="tag">tree</a>
+            <a href="#" class="tag">nature</a>
+            <a href="#" class="tag">mountain</a>
+        </div>
+        <a href="#" class="icon">
+            <i class="fas fa-thumbs-up"></i>
+            <span>2</span>
+        </a>
+    </div>
     <script src="js/script.js"></script>
 </body>
+
 </html>
