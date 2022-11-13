@@ -564,6 +564,16 @@ section {
     margin: 2rem 1rem;
 }
 
+.like-icon {
+    font-size: 2rem;
+    margin: 3rem 7rem;
+    color: var(--black);
+}
+
+.like-icon:hover {
+    color: var(--orange);
+}
+
 
 /* media queries  */
 
